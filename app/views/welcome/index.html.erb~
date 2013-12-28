@@ -1,62 +1,71 @@
 <% @title="Home " %>
 
  
-<!-- Line
-	=================================================-->
-	 <div style="border-left:medium rgba(200, 200, 200, .2) groove;height:100%;position:fixed;left:11%;top:absolute;bottom:absolute;border-radius: 1px 1px 1px 1px;text-shadow: 6px 6px 5px #6B6867;">
-	 </div>
+<!-- MASTHEAD
+	===================================================-->
 
- <!-- Modal 1
+         <div class="container">
+            <main id="content" class="bs-masthead" role="main">
+<div class="content">
+
+<h1>Get Ready To Be Inspired</h1>
+
+
+</div>
+</main>
+         </div>
+      
+
+ <!-- INTRODUCTORY VIDEO
         ================================================== -->
             <div class="container">
-            <div class="modal" style="position: relative; top: 80px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
+            <div class="modal" style="position: relative; top: 6px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
               <div class="modal-header">
-                
-                <h3>here goes the comingsoon snap</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h2 id="myModalLabel">Innovation Creativity & Excellence</h2>
+            </div>
+                <div class="modal-body" style="height: 280px;padding-top:0px;padding-right:0px;padding-left:0px;padding-bottom:0px;">
+		
+              <div class="embed-box">
+               <iframe src="//www.youtube.com/embed/7SIqAcvlQG8" frameborder="0" allowfullscreen></iframe>
               </div>
-              <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
+
+		</div>
               <div class="modal-footer">
-                
+                <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote>
               </div>
             </div>
 	    </div>
 
-<!-- Modal 2
+<!-- WHO WE ARE
         ================================================== -->
             <div class="container">
-            <div class="modal" style="position: relative; top: 80px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
+            <div class="modal" style="position: relative; top: 12px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
               <div class="modal-header">
                 
-                <h3>here goes the comingsoon snap</h3>
+                <h2 id="myModalLabel"><strong>Who We Are</strong></h2>
               </div>
               <div class="modal-body">
-                <p>One fine body&hellip;</p>
-              </div>
-              <div class="modal-footer">
-                
+                <div class="page-header"><h1>We are a group of creative minds at work, who aim to bring your ideas into reality .<p><small>Want to know us more &hellip;</small></p><a href="#" target="_blank"><span class="close"><h4>Read more from us here!</h4></span></a></h1></div>
               </div>
             </div>
 	    </div>
-<!-- Modal 3
+<!-- WHAT WE DO
         ================================================== -->
             <div class="container">
-            <div class="modal" style="position: relative; top: 80px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
+            <div class="modal" style="position: relative; top: 24px; left: auto; right: auto; margin: 0 auto 20px; z-index: 1; max-width: 80%;">
               <div class="modal-header">
                 
-                <h3>here goes the comingsoon snap</h3>
+                <h2 id="myModalLabel"><strong>What We Do</strong></h2>
               </div>
               <div class="modal-body">
-                <p>One fine body&hellip;</p>
+                 <div class="page-header"><h1>We Develop Websites Softwares & Web Apps <p><small>to face real world challenges .We aim to revolutionize the company to have the strength of a big company combined with the leanness & agility of a small company. We force business opportunities & create new concepts ,ideas to develop & deliver projects in a way that differentiates us from the crowd &hellip;</small></p><a href="#" target="_blank"><span class="close"><h4>Read more from us here!</h4></span></a></h1></div>
               </div>
-              <div class="modal-footer">
-                
               </div>
             </div>
 	    </div>
 
-<!---- model 4(for happy day)
+<!---- HAPPYNESS
 		==================================================-->
 <div class="container">
 <div id="happy" class="modal1 hide fade tabindex="-1" role="dialog" aria-labelledby="happy" aria-hidden="true" style="position: fixed;top: 80px; left: 50px; right: 50px; margin: 0 auto 80px; max-width: 60%;">
@@ -72,7 +81,7 @@
 
 
 
-<!---- model 4(for location)
+<!---- CONTACT US
 		==================================================-->
 <div class="container">
 <div id="contact" class="modal2 hide fade tabindex="-1" role="dialog" aria-labelledby="contact" aria-hidden="true" style="position: fixed;top: 80px; left: 30px; right: 30px; margin: 0 auto 80px; max-width: 80%;">
@@ -87,19 +96,13 @@
             </div>
 		<hr>
 		<div class="modal2-footer">
-              <p>dick footer</p>
+              <p></p>
               
             </div>
            </div>
 </div>
 
-<!-- Footer
-    ================================================== -->
-    <footer class="footer">
-      <div class="container">
-        <p><h5>Copyright &copy; <%=Time.now.year=%> Techoweb Enterprises Pvt. Ltd. All rights reserved.</h5></p>
-      </div>
-    </footer>
+
 
 
 

@@ -6,6 +6,17 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+    <style type="text/css">
+    @font-face {
+    font-family: 'FontAwesome';
+    src: url('/home/neeraj/tow_project/realapp/vendor/assets/font/fontawesome-webfont.eot')?v=3.1.1');
+    src: url('/assets/font/fontawesome-webfont.eot')?#iefix&v=3.1.1') format('embedded-opentype'),
+    url('/home/neeraj/tow_project/realapp/vendor/assets/font/fontawesome-webfont.woff')?v=3.1.1') format('woff'),
+    url('/home/neeraj/tow_project/realapp/vendor/assets/font/fontawesome-webfont.ttf')?v=3.1.1') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+    </style>
 </head>
 <body>
 <!-- Navbar
@@ -18,11 +29,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">    <%= image_tag("logo.resized.png",:alt => "techoweb") %></a>
+          <a class="brand" href="#">    <%= image_tag("logo.resized.png",:alt => "techoweb") %><small>   | Inspiring Innovation </small></a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
               <li class="active"><a data-toggle="modal" href="http://en.wikipedia.org/wiki/Happy" data-target="#happy">Happy <%= Time.now.strftime("%A") %>!</a></li>
-              <li><a href="#">Blog<span class="badge"><small><em></em></small></span></a></li>
+              <li><a href="#">Blogs<span class="badge"><small><sup>new</sup></small></span></a></li>
               <li><a data-toggle="modal" href="#" data-target="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -31,6 +42,13 @@
     </div>
 
 <%= yield %>
+<!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p><h5>Copyright &copy; <%=Time.now.year=%> Techoweb Enterprises Pvt. Ltd. All rights reserved.</h5></p>
+      </div>
+    </footer>
 
 
 
