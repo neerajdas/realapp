@@ -97,7 +97,7 @@
     ================================================== -->
     <footer class="footer">
       <div class="container">
-        <p><h5>Copyright &copy; <%=Time.now.year=%> Techoweb Enterprise Pvt. Ltd. All rights reserved.</h5></p>
+        <p><h5>Copyright &copy; <%=Time.now.year=%> Techoweb Enterprises Pvt. Ltd. All rights reserved.</h5></p>
       </div>
     </footer>
 
