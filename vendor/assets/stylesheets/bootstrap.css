@@ -8284,7 +8284,7 @@ input.search-query {
 
 -----------------------------------------------------------------------------------------------------------------------------------
 /* Masthead (headings and download button) */
- .bs-masthead {
+.bs-masthead {
   position: relative;
   padding: 30px 15px;
   text-align: center;
@@ -8294,6 +8294,7 @@ input.search-query {
   font-size: 50px;
   line-height: 1;
   color: #fff;
+  text-align:center;
 }
 .bs-masthead .btn-outline-inverse {
   margin: 10px;
@@ -8359,6 +8360,12 @@ input.search-query {
     width: 100%;
     height: 100%;
 }
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+	
+
+
 
 
 

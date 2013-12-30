@@ -5118,8 +5118,8 @@ a.thumbnail:focus {
 }
 
 .badge {
-  padding-right: 2px;
-  padding-left: 2px;
+  padding-right: 0px;
+  padding-left: 0px;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius:2px;
@@ -8284,7 +8284,7 @@ input.search-query {
 
 -----------------------------------------------------------------------------------------------------------------------------------
 /* Masthead (headings and download button) */
- .bs-masthead {
+.bs-masthead {
   position: relative;
   padding: 30px 15px;
   text-align: center;
@@ -8294,6 +8294,7 @@ input.search-query {
   font-size: 50px;
   line-height: 1;
   color: #fff;
+  text-align:center;
 }
 .bs-masthead .btn-outline-inverse {
   margin: 10px;
@@ -8359,6 +8360,31 @@ input.search-query {
     width: 100%;
     height: 100%;
 }
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+	
+
+Well, my solution is sort of hack, but it works and I am using it.
+
+1vw = 1% of viewport width
+
+1vh = 1% of viewport height
+
+1vmin = 1vw or 1vh, whichever is smaller
+
+1vmax = 1vw or 1vh, whichever is larger
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
+
 
 
 
