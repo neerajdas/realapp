@@ -19,6 +19,7 @@
     </style>
 </head>
 <body>
+<div id="wrap">
 <!-- Navbar
     ================================================== -->
       <div class="navbar navbar-fixed-top">
@@ -40,6 +41,8 @@
         </div>
       </div>
     </div>
+<div id="push"></div>
+</div>
 
 <%= yield %>
 <!-- Footer
